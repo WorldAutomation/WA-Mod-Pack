@@ -1,0 +1,26 @@
+[10:36:24] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:36:24] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:36:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:36:24] [main/INFO]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[10:36:24] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_191
+[10:36:24] [main/INFO]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.7.10_HD_U_E7.jar
+[10:36:24] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:36:24] [main/INFO]: Loading tweak class name optifine.OptiFineForgeTweaker
+[10:36:24] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:36:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:36:24] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:36:24] [main/INFO]: Calling tweak class optifine.OptiFineForgeTweaker
+[10:36:24] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[10:36:24] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[10:36:24] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ClassTransformer
+[10:36:24] [main/INFO]: [optifine.OptiFineClassTransformer:dbg:221]: OptiFine ZIP file: C:\Storage\Repositories\worldautomation.net\WA-Mod-Pack\mods\OptiFine_1.7.10_HD_U_E7.jar
+[10:36:24] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:36:25] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[10:36:25] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[10:36:25] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:36:25] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:36:26] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[10:36:26] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[10:36:26] [main/INFO]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[10:36:26] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:36:26] [main/INFO]: Setting user: sys__op
