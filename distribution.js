@@ -12,7 +12,6 @@ function getFilesizeInBytes(filename) {
 if (!fs.existsSync('config')){ fs.mkdirSync('config') }
 if (!fs.existsSync('liteconfig')){ fs.mkdirSync('liteconfig') }
 if (!fs.existsSync('mods')){ fs.mkdirSync('mods') }
-if (!fs.existsSync('mods')){ fs.mkdirSync('mods') }
 if (!fs.existsSync('mods-optional')){ fs.mkdirSync('mods-optional') }
 console.log('Scanning and creating JSON modlist file, please wait...')
 var allJSONrequired = ''
@@ -20,7 +19,7 @@ var thisJSONrequired = '\t\t\t\t'
 var allJSONoptional = ''
 var thisJSONoptional = '\t\t\t\t'
 fs.createReadStream(__dirname+'/distribution-template.json').pipe(fs.createWriteStream('distribution.json'))
-dir.files(__dirname, function(err, files) {
+dir.files('./', function(err, files) {
 	files.forEach(function(file) {
 		var modFile = path.basename(file)
 		var pathSearch = file.toString()
@@ -50,7 +49,7 @@ dir.files(__dirname, function(err, files) {
 			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
 			var target_name =fileName
 			console.log(file)
-			var target_path = 'mods/'+fileName+ext
+			var target_path = 'mods-optional/'+fileName+ext
 			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t"artifact": {\r\n\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
 		} else if(pathSearch.indexOf('config\\') > 0) {
