@@ -99,7 +99,7 @@ dir.files('../WA-Mod-Pack', function(err, files) {
 	allJSONoptional = allJSONoptional.slice(0, -1).toString()
 	allJSONrequired = allJSONrequired.slice(0, -1).toString()
 	if(allJSONrequired == ''){
-	allJSON = allJSONoptional.replace(/..\/WA-Mod-Pack/g,'')+']\r\n\t\t}]\r\n}'
+	allJSON = allJSONoptional+']\r\n\t\t}]\r\n}'
 	} else {
 		if(allJSONoptional == ''){
 			allJSON = allJSONrequired+']\r\n\t\t}]\r\n}'
@@ -107,7 +107,7 @@ dir.files('../WA-Mod-Pack', function(err, files) {
 			allJSON = allJSONrequired+','+allJSONoptional+']\r\n\t\t}]\r\n}'
 		}
 	}
-	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/')+'', function (err) {
+	fs.appendFile('distribution.json', allJSON.replace(/\\/g, '/').replace(/..\/WA-Mod-Pack/g,'')+'', function (err) {
 		if (err) throw err
 		var fs = require('fs')
 		fs.readFile('distribution.json', 'utf8', function (err,data) {
