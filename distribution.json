@@ -1435,20 +1435,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/desert/SandstoneBld1_Ruined.tml"
 					}
 			},{
-				"id": "SandstoneBld2_Ruined",
-				"name": "SandstoneBld2_Ruined",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 2530,
-					"path": "mods/resources/ruins/obsolete/desert/SandstoneBld2_Ruined.tml",
-					"MD5": "9299c3a80f818249d2d379a41d3675ed",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/desert/SandstoneBld2_Ruined.tml"
-					}
-			},{
 				"id": "SandstoneBld2_Intact",
 				"name": "SandstoneBld2_Intact",
 					"type": "File",
@@ -1461,6 +1447,20 @@
 					"path": "mods/resources/ruins/obsolete/desert/SandstoneBld2_Intact.tml",
 					"MD5": "44a5a31d58f5abc51cd969aa9c605aa4",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/desert/SandstoneBld2_Intact.tml"
+					}
+			},{
+				"id": "SandstoneBld2_Ruined",
+				"name": "SandstoneBld2_Ruined",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 2530,
+					"path": "mods/resources/ruins/obsolete/desert/SandstoneBld2_Ruined.tml",
+					"MD5": "9299c3a80f818249d2d379a41d3675ed",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/desert/SandstoneBld2_Ruined.tml"
 					}
 			},{
 				"id": "SandstoneBld3_Intact",
@@ -2751,20 +2751,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillagePig-p.tml"
 					}
 			},{
-				"id": "VanillaVillageWell-p",
-				"name": "VanillaVillageWell-p",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 3008,
-					"path": "mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml",
-					"MD5": "3aedd80394bccb4a9e34b0b24d567907",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml"
-					}
-			},{
 				"id": "WatchtowerIntact",
 				"name": "WatchtowerIntact",
 					"type": "File",
@@ -2805,6 +2791,20 @@
 					"path": "mods/resources/ruins/obsolete/plains/WaterTrapRoom.tml",
 					"MD5": "d2605414f0b3356b75d1ec6437a9ec96",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/WaterTrapRoom.tml"
+					}
+			},{
+				"id": "VanillaVillageWell-p",
+				"name": "VanillaVillageWell-p",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 3008,
+					"path": "mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml",
+					"MD5": "3aedd80394bccb4a9e34b0b24d567907",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml"
 					}
 			},{
 				"id": "WoodHouse2_Intact",
