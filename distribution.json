@@ -349,21 +349,6 @@
           }
         },
         {
-          "id": "AlchemistsDungeon",
-          "name": "AlchemistsDungeon",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 32548,
-            "path": "mods/resources/ruins/generic/AlchemistsDungeon.tml",
-            "MD5": "6f9e56b08c6e89d21a3f108bf92cc8f3",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AlchemistsDungeon.tml"
-          }
-        },
-        {
           "id": "Altar",
           "name": "Altar",
           "type": "File",
@@ -379,18 +364,18 @@
           }
         },
         {
-          "id": "AncientFountain",
-          "name": "AncientFountain",
+          "id": "AlchemistsDungeon",
+          "name": "AlchemistsDungeon",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 2038,
-            "path": "mods/resources/ruins/generic/AncientFountain.tml",
-            "MD5": "4304db044c33edcef13c339d04975226",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AncientFountain.tml"
+            "size": 32548,
+            "path": "mods/resources/ruins/generic/AlchemistsDungeon.tml",
+            "MD5": "6f9e56b08c6e89d21a3f108bf92cc8f3",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AlchemistsDungeon.tml"
           }
         },
         {
@@ -439,6 +424,21 @@
           }
         },
         {
+          "id": "AncientFountain",
+          "name": "AncientFountain",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2038,
+            "path": "mods/resources/ruins/generic/AncientFountain.tml",
+            "MD5": "4304db044c33edcef13c339d04975226",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AncientFountain.tml"
+          }
+        },
+        {
           "id": "CastleModified",
           "name": "CastleModified",
           "type": "File",
@@ -481,21 +481,6 @@
             "path": "mods/resources/ruins/generic/EmeraldOreOutcrop.tml",
             "MD5": "4ac3aa615e6e1b63bd69d510a476acb1",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/EmeraldOreOutcrop.tml"
-          }
-        },
-        {
-          "id": "Floater",
-          "name": "Floater",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 30696,
-            "path": "mods/resources/ruins/generic/Floater.tml",
-            "MD5": "b4c13f79a1d2a9898fe30ea9f2f6be82",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Floater.tml"
           }
         },
         {
@@ -544,6 +529,36 @@
           }
         },
         {
+          "id": "Floater",
+          "name": "Floater",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 30696,
+            "path": "mods/resources/ruins/generic/Floater.tml",
+            "MD5": "b4c13f79a1d2a9898fe30ea9f2f6be82",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Floater.tml"
+          }
+        },
+        {
+          "id": "Outcrop",
+          "name": "Outcrop",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1415,
+            "path": "mods/resources/ruins/generic/Outcrop.tml",
+            "MD5": "133165ab21daf8c94eb68c4728a9d743",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Outcrop.tml"
+          }
+        },
+        {
           "id": "MoaiHead",
           "name": "MoaiHead",
           "type": "File",
@@ -574,18 +589,18 @@
           }
         },
         {
-          "id": "Outcrop",
-          "name": "Outcrop",
+          "id": "PumpkinField",
+          "name": "PumpkinField",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1415,
-            "path": "mods/resources/ruins/generic/Outcrop.tml",
-            "MD5": "133165ab21daf8c94eb68c4728a9d743",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Outcrop.tml"
+            "size": 707,
+            "path": "mods/resources/ruins/generic/PumpkinField.tml",
+            "MD5": "4f15989ce1e52b6ccff632f71754d45b",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/PumpkinField.tml"
           }
         },
         {
@@ -601,21 +616,6 @@
             "path": "mods/resources/ruins/generic/PirateShip.tml",
             "MD5": "9ef5eb214f4e3091467ccf2980d0cb85",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/PirateShip.tml"
-          }
-        },
-        {
-          "id": "PumpkinField",
-          "name": "PumpkinField",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 707,
-            "path": "mods/resources/ruins/generic/PumpkinField.tml",
-            "MD5": "4f15989ce1e52b6ccff632f71754d45b",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/PumpkinField.tml"
           }
         },
         {
@@ -649,6 +649,21 @@
           }
         },
         {
+          "id": "StonePillar",
+          "name": "StonePillar",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 888,
+            "path": "mods/resources/ruins/generic/StonePillar.tml",
+            "MD5": "3d5d90a3208e280004fe77bdb3347d9c",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/StonePillar.tml"
+          }
+        },
+        {
           "id": "StoneGrill",
           "name": "StoneGrill",
           "type": "File",
@@ -676,21 +691,6 @@
             "path": "mods/resources/ruins/generic/StoneHouseMruined.tml",
             "MD5": "3f1d87559a569ae03e595da994691948",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/StoneHouseMruined.tml"
-          }
-        },
-        {
-          "id": "StonePillar",
-          "name": "StonePillar",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 888,
-            "path": "mods/resources/ruins/generic/StonePillar.tml",
-            "MD5": "3d5d90a3208e280004fe77bdb3347d9c",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/StonePillar.tml"
           }
         },
         {
@@ -754,21 +754,6 @@
           }
         },
         {
-          "id": "JungleTreePlatform",
-          "name": "JungleTreePlatform",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6453,
-            "path": "mods/resources/ruins/jungle/JungleTreePlatform.tml",
-            "MD5": "4081a7cc601aa81381e2d598413118da",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/jungle/JungleTreePlatform.tml"
-          }
-        },
-        {
           "id": "JungleTreePlatform_edit",
           "name": "JungleTreePlatform_edit",
           "type": "File",
@@ -781,6 +766,21 @@
             "path": "mods/resources/ruins/jungle/JungleTreePlatform_edit.tml",
             "MD5": "48af55becfc0f33594f979422c63b249",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/jungle/JungleTreePlatform_edit.tml"
+          }
+        },
+        {
+          "id": "JungleTreePlatform",
+          "name": "JungleTreePlatform",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6453,
+            "path": "mods/resources/ruins/jungle/JungleTreePlatform.tml",
+            "MD5": "4081a7cc601aa81381e2d598413118da",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/jungle/JungleTreePlatform.tml"
           }
         },
         {
@@ -1141,51 +1141,6 @@
             "path": "mods/resources/ruins/obsolete/beach/LightHouse.tml",
             "MD5": "85977774a8a614eedda62313f8b17024",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/beach/LightHouse.tml"
-          }
-        },
-        {
-          "id": "SpiralTree",
-          "name": "SpiralTree",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 21832,
-            "path": "mods/resources/ruins/obsolete/forest/SpiralTree.tml",
-            "MD5": "161a6aff372d448047b9ea862b00c65d",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/SpiralTree.tml"
-          }
-        },
-        {
-          "id": "TreeDungeon",
-          "name": "TreeDungeon",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 6823,
-            "path": "mods/resources/ruins/obsolete/forest/TreeDungeon.tml",
-            "MD5": "b7c85781da2b65e968eb3af9dd953b88",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeDungeon.tml"
-          }
-        },
-        {
-          "id": "TreeHouse",
-          "name": "TreeHouse",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 21812,
-            "path": "mods/resources/ruins/obsolete/forest/TreeHouse.tml",
-            "MD5": "cbb52cb9931494180d124f15dd1fbba4",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeHouse.tml"
           }
         },
         {
@@ -1864,6 +1819,51 @@
           }
         },
         {
+          "id": "SpiralTree",
+          "name": "SpiralTree",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21832,
+            "path": "mods/resources/ruins/obsolete/forest/SpiralTree.tml",
+            "MD5": "161a6aff372d448047b9ea862b00c65d",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/SpiralTree.tml"
+          }
+        },
+        {
+          "id": "TreeDungeon",
+          "name": "TreeDungeon",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 6823,
+            "path": "mods/resources/ruins/obsolete/forest/TreeDungeon.tml",
+            "MD5": "b7c85781da2b65e968eb3af9dd953b88",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeDungeon.tml"
+          }
+        },
+        {
+          "id": "TreeHouse",
+          "name": "TreeHouse",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 21812,
+            "path": "mods/resources/ruins/obsolete/forest/TreeHouse.tml",
+            "MD5": "cbb52cb9931494180d124f15dd1fbba4",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeHouse.tml"
+          }
+        },
+        {
           "id": "TP_FishingShack",
           "name": "TP_FishingShack",
           "type": "File",
@@ -1876,66 +1876,6 @@
             "path": "mods/resources/ruins/obsolete/frozenocean/TP_FishingShack.tml",
             "MD5": "13398cea7c7a8d663f91872171c504ef",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/frozenocean/TP_FishingShack.tml"
-          }
-        },
-        {
-          "id": "Piston-CreeperRoom",
-          "name": "Piston-CreeperRoom",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 7591,
-            "path": "mods/resources/ruins/obsolete/generic/Piston-CreeperRoom.tml",
-            "MD5": "56da3f68779d6c0d84f0746c35a60962",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/Piston-CreeperRoom.tml"
-          }
-        },
-        {
-          "id": "Piston-LavaTrap",
-          "name": "Piston-LavaTrap",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3739,
-            "path": "mods/resources/ruins/obsolete/generic/Piston-LavaTrap.tml",
-            "MD5": "dc904060643fb307fdbf207ab734f8f7",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/Piston-LavaTrap.tml"
-          }
-        },
-        {
-          "id": "SmallWell",
-          "name": "SmallWell",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 850,
-            "path": "mods/resources/ruins/obsolete/generic/SmallWell.tml",
-            "MD5": "dc5b3b16d33d9e724b53830d5e14d2e9",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/SmallWell.tml"
-          }
-        },
-        {
-          "id": "PyramidStone",
-          "name": "PyramidStone",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 13120,
-            "path": "mods/resources/ruins/obsolete/jungle/PyramidStone.tml",
-            "MD5": "d68d90731255cbd7f2c69591e2180d76",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/jungle/PyramidStone.tml"
           }
         },
         {
@@ -1984,78 +1924,48 @@
           }
         },
         {
-          "id": "BridgePilings-sm2",
-          "name": "BridgePilings-sm2",
+          "id": "Piston-CreeperRoom",
+          "name": "Piston-CreeperRoom",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1810,
-            "path": "mods/resources/ruins/obsolete/river/BridgePilings-sm2.tml",
-            "MD5": "0afd43117e79da049920be0451466fc9",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-sm2.tml"
+            "size": 7591,
+            "path": "mods/resources/ruins/obsolete/generic/Piston-CreeperRoom.tml",
+            "MD5": "56da3f68779d6c0d84f0746c35a60962",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/Piston-CreeperRoom.tml"
           }
         },
         {
-          "id": "BridgePilings-small",
-          "name": "BridgePilings-small",
+          "id": "Piston-LavaTrap",
+          "name": "Piston-LavaTrap",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1765,
-            "path": "mods/resources/ruins/obsolete/river/BridgePilings-small.tml",
-            "MD5": "e5221182bc3f6f26a5b5b871d36c3567",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-small.tml"
+            "size": 3739,
+            "path": "mods/resources/ruins/obsolete/generic/Piston-LavaTrap.tml",
+            "MD5": "dc904060643fb307fdbf207ab734f8f7",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/Piston-LavaTrap.tml"
           }
         },
         {
-          "id": "BridgePilings-small_river",
-          "name": "BridgePilings-small_river",
+          "id": "SmallWell",
+          "name": "SmallWell",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 1783,
-            "path": "mods/resources/ruins/obsolete/river/BridgePilings-small_river.tml",
-            "MD5": "048d5d79b0170f0d9b2303264ac99cf1",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-small_river.tml"
-          }
-        },
-        {
-          "id": "BridgePilings2_river",
-          "name": "BridgePilings2_river",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3131,
-            "path": "mods/resources/ruins/obsolete/river/BridgePilings2_river.tml",
-            "MD5": "98103c9f6633c83e515aba1f4b51cd28",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings2_river.tml"
-          }
-        },
-        {
-          "id": "BridgePilings-lg2",
-          "name": "BridgePilings-lg2",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3145,
-            "path": "mods/resources/ruins/obsolete/river/BridgePilings-lg2.tml",
-            "MD5": "ee750f02964f7c21802cf8f90d6ba110",
-            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-lg2.tml"
+            "size": 850,
+            "path": "mods/resources/ruins/obsolete/generic/SmallWell.tml",
+            "MD5": "dc5b3b16d33d9e724b53830d5e14d2e9",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/generic/SmallWell.tml"
           }
         },
         {
@@ -2944,6 +2854,81 @@
           }
         },
         {
+          "id": "BridgePilings-lg2",
+          "name": "BridgePilings-lg2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3145,
+            "path": "mods/resources/ruins/obsolete/river/BridgePilings-lg2.tml",
+            "MD5": "ee750f02964f7c21802cf8f90d6ba110",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-lg2.tml"
+          }
+        },
+        {
+          "id": "BridgePilings-sm2",
+          "name": "BridgePilings-sm2",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1810,
+            "path": "mods/resources/ruins/obsolete/river/BridgePilings-sm2.tml",
+            "MD5": "0afd43117e79da049920be0451466fc9",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-sm2.tml"
+          }
+        },
+        {
+          "id": "BridgePilings-small",
+          "name": "BridgePilings-small",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1765,
+            "path": "mods/resources/ruins/obsolete/river/BridgePilings-small.tml",
+            "MD5": "e5221182bc3f6f26a5b5b871d36c3567",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-small.tml"
+          }
+        },
+        {
+          "id": "BridgePilings-small_river",
+          "name": "BridgePilings-small_river",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1783,
+            "path": "mods/resources/ruins/obsolete/river/BridgePilings-small_river.tml",
+            "MD5": "048d5d79b0170f0d9b2303264ac99cf1",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings-small_river.tml"
+          }
+        },
+        {
+          "id": "BridgePilings2_river",
+          "name": "BridgePilings2_river",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3131,
+            "path": "mods/resources/ruins/obsolete/river/BridgePilings2_river.tml",
+            "MD5": "98103c9f6633c83e515aba1f4b51cd28",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/river/BridgePilings2_river.tml"
+          }
+        },
+        {
           "id": "EnderStatueHigh",
           "name": "EnderStatueHigh",
           "type": "File",
@@ -3166,6 +3151,21 @@
             "path": "mods/resources/ruins/obsolete/snow forest/SnowHouse3.tml",
             "MD5": "0472d195af3437b082da1f0e86eb8239",
             "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/snow%20forest/SnowHouse3.tml"
+          }
+        },
+        {
+          "id": "PyramidStone",
+          "name": "PyramidStone",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 13120,
+            "path": "mods/resources/ruins/obsolete/jungle/PyramidStone.tml",
+            "MD5": "d68d90731255cbd7f2c69591e2180d76",
+            "url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/jungle/PyramidStone.tml"
           }
         },
         {
