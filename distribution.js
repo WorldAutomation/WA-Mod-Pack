@@ -3,7 +3,7 @@ fs = require('fs'),
 execSync = require('child_process').execSync,
 dir = require('node-dir'),
 md5File = require('md5-file'),
-downloadCDN = 'http://localhost:9090/'
+downloadCDN = 'https://cdn.worldautomation.net/'
 function getFilesizeInBytes(filename) {
 	const stats = fs.statSync(filename)
 	const fileSizeInBytes = stats.size
