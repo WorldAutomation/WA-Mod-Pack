@@ -24,21 +24,21 @@ dir.files('./', function(err, files) {
 		var modFile = path.basename(file)
 		var pathSearch = file.toString()
 		//For now we do the libraries manually, but will eventually add them so they don't continually download due to hash mismatch!
-		if(pathSearch.indexOf('mods\\') > 0) {
+		 if(pathSearch.indexOf('\\liteconfig\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
-			var target_type = 'ForgeMod'
+			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
 			var target_md5 = md5File.sync(file)
 			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20")
 			console.log(fileName+' >> '+target_md5)
-			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
+			var target_id = fileName
 			var target_name = fileName
 			console.log(file)
 			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/')
-			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t"artifact": {\r\n\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
+			var target_path = file.toString().replace(/\\/g, '/').replace('/config','')
+			var thisJSONoptional = '{\r\n\t\t\t"id": "'+target_id+'",\r\n\t\t\t"name": "'+target_name+'",\r\n\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
-		} else if(pathSearch.indexOf('mods-optional\\') > 0) {
+		} else if(pathSearch.indexOf('\\mods-optional\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
@@ -52,7 +52,21 @@ dir.files('./', function(err, files) {
 			var target_path = 'mods-optional/'+fileName+ext
 			var thisJSONoptional = '{\r\n\t\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
-		} else if(pathSearch.indexOf('config\\') > 0) {
+		} else if(pathSearch.indexOf('\\mods\\') > 0) {
+			var fileName = modFile.split('.').slice(0, -1).join('.')
+			var target_type = 'ForgeMod'
+			var target_size = getFilesizeInBytes(file)
+			var target_md5 = md5File.sync(file)
+			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20")
+			console.log(fileName+' >> '+target_md5)
+			var target_id = 'org.wa:mod:'+target_md5.slice(0, -28)
+			var target_name = fileName
+			console.log(file)
+			var ext = path.extname(file)
+			var target_path = file.toString().replace(/\\/g, '/').replace(/mods\//g,'modstore\/')
+			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t"type": "'+target_type+'",\r\n\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
+			allJSONoptional += thisJSONoptional.toString()
+		} else if(pathSearch.indexOf('\\config\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)
@@ -64,23 +78,9 @@ dir.files('./', function(err, files) {
 			console.log(file)
 			var ext = path.extname(file)
 			var target_path = file.toString().replace(/\\/g, '/')
-			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t"artifact": {\r\n\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
+			var thisJSONoptional = '{\r\n\t\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t\t\t"artifact": {\r\n\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t}\r\n\t\t\t},'
 			allJSONoptional += thisJSONoptional.toString()
-		} else if(pathSearch.indexOf('resources\\') > 0) {
-			var fileName = modFile.split('.').slice(0, -1).join('.')
-			var target_type = 'File'
-			var target_size = getFilesizeInBytes(file)
-			var target_md5 = md5File.sync(file)
-			var target_url = downloadCDN+file.toString().replace(/\\/g, '/').replace(/ /g,"%20")
-			console.log(fileName+' >> '+target_md5)
-			var target_id = fileName
-			var target_name = fileName
-			console.log(file)
-			var ext = path.extname(file)
-			var target_path = file.toString().replace(/\\/g, '/').replace('/config','')
-			var thisJSONoptional = '{\r\n\t\t\t\t"id": "'+target_id+'",\r\n\t\t\t\t"name": "'+target_name+'",\r\n\t\t\t\t\t"type": "'+target_type+'",\r\n\t\t\t\t\t"required": {\r\n\t\t\t\t\t"value": false,\r\n\t\t\t\t\t"def": true\r\n\t\t\t\t},\r\n\t\t\t"artifact": {\r\n\t\t\t\t\t\t"size": '+target_size+',\r\n\t\t\t\t\t"path": "'+target_path+'",\r\n\t\t\t\t\t"MD5": "'+target_md5+'",\r\n\t\t\t\t\t"url": "'+target_url+'"\r\n\t\t\t\t\t}\r\n\t\t\t},'
-			allJSONoptional += thisJSONoptional.toString()
-		} else if(pathSearch.indexOf('liteconfig\\') > 0) {
+		} else if(pathSearch.indexOf('\\resources\\') > 0) {
 			var fileName = modFile.split('.').slice(0, -1).join('.')
 			var target_type = 'File'
 			var target_size = getFilesizeInBytes(file)

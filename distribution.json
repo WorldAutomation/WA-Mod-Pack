@@ -287,104 +287,6 @@
 					}
 				}]
 			},{
-				"id": "liteloader",
-				"name": "liteloader",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 35803,
-					"path": "liteconfig/liteloader.log",
-					"MD5": "125ac36935eed2da37c4b098413f8800",
-					"url": "https://cdn.worldautomation.net/liteconfig/liteloader.log"
-				}
-			},{
-				"id": "liteloader.profiles",
-				"name": "liteloader.profiles",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 2273,
-					"path": "liteconfig/liteloader.profiles.json",
-					"MD5": "1bc636d5d01568ae1c7ba6f1a642d5d0",
-					"url": "https://cdn.worldautomation.net/liteconfig/liteloader.profiles.json"
-				}
-			},{
-				"id": "liteloader",
-				"name": "liteloader",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 383,
-					"path": "liteconfig/liteloader.properties",
-					"MD5": "3026a443cf8485aa196a76bdab35d116",
-					"url": "https://cdn.worldautomation.net/liteconfig/liteloader.properties"
-				}
-			},{
-				"id": "liteloader.keys",
-				"name": "liteloader.keys",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 130,
-					"path": "liteconfig/common/liteloader.keys.properties",
-					"MD5": "3b0dc3e8295c37175aa7f16138493071",
-					"url": "https://cdn.worldautomation.net/liteconfig/common/liteloader.keys.properties"
-				}
-			},{
-				"id": "org.wa:mod:3f29",
-				"name": "AbstractBlock",
-					"type": "ForgeMod",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 346,
-					"path": "config/darkmodstore/darkcore/AbstractBlock.cfg",
-					"MD5": "3f29cc1f853339fea3392a07a0453b8a",
-					"url": "https://cdn.worldautomation.net/config/darkmods/darkcore/AbstractBlock.cfg"
-				}
-			},{
-				"id": "org.wa:mod:aec6",
-				"name": "DarkCore",
-					"type": "ForgeMod",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 790,
-					"path": "config/darkmodstore/darkcore/DarkCore.cfg",
-					"MD5": "aec6543aaa6560ab00d40ee42e5768c0",
-					"url": "https://cdn.worldautomation.net/config/darkmods/darkcore/DarkCore.cfg"
-				}
-			},{
-				"id": "org.wa:mod:a1e9",
-				"name": "network",
-					"type": "ForgeMod",
-					"required": {
-					"value": false,
-					"def": true
-				},
-				"artifact": {
-					"size": 345,
-					"path": "config/darkmodstore/darkcore/network.cfg",
-					"MD5": "a1e98eddd95acb01e99c217e1c3315db",
-					"url": "https://cdn.worldautomation.net/config/darkmods/darkcore/network.cfg"
-				}
-			},{
 				"id": "glorious eternal credits",
 				"name": "glorious eternal credits",
 					"type": "File",
@@ -441,20 +343,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Altar.tml"
 					}
 			},{
-				"id": "AncientFountain",
-				"name": "AncientFountain",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 2038,
-					"path": "mods/resources/ruins/generic/AncientFountain.tml",
-					"MD5": "4304db044c33edcef13c339d04975226",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AncientFountain.tml"
-					}
-			},{
 				"id": "Archway",
 				"name": "Archway",
 					"type": "File",
@@ -467,6 +355,20 @@
 					"path": "mods/resources/ruins/generic/Archway.tml",
 					"MD5": "ae0b4daad76e544cafcb6863cad68217",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/Archway.tml"
+					}
+			},{
+				"id": "AncientFountain",
+				"name": "AncientFountain",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 2038,
+					"path": "mods/resources/ruins/generic/AncientFountain.tml",
+					"MD5": "4304db044c33edcef13c339d04975226",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/generic/AncientFountain.tml"
 					}
 			},{
 				"id": "ArrowTrapTomb",
@@ -931,20 +833,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/obsolete.txt"
 					}
 			},{
-				"id": "LightHouse",
-				"name": "LightHouse",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 14061,
-					"path": "mods/resources/ruins/obsolete/beach/LightHouse.tml",
-					"MD5": "85977774a8a614eedda62313f8b17024",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/beach/LightHouse.tml"
-					}
-			},{
 				"id": "AlchemistsDungeon",
 				"name": "AlchemistsDungeon",
 					"type": "File",
@@ -1029,20 +917,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/badlands/FlamingSkullHouse.tml"
 					}
 			},{
-				"id": "Gnomeworks",
-				"name": "Gnomeworks",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 13293,
-					"path": "mods/resources/ruins/obsolete/badlands/Gnomeworks.tml",
-					"MD5": "4d855bf5adacb67baad040bd2837b451",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/badlands/Gnomeworks.tml"
-					}
-			},{
 				"id": "GoldWell",
 				"name": "GoldWell",
 					"type": "File",
@@ -1097,6 +971,20 @@
 					"path": "mods/resources/ruins/obsolete/badlands/Pit-big.tml",
 					"MD5": "f17499c5745e4d59ca7e9afd8109e301",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/badlands/Pit-big.tml"
+					}
+			},{
+				"id": "Gnomeworks",
+				"name": "Gnomeworks",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 13293,
+					"path": "mods/resources/ruins/obsolete/badlands/Gnomeworks.tml",
+					"MD5": "4d855bf5adacb67baad040bd2837b451",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/badlands/Gnomeworks.tml"
 					}
 			},{
 				"id": "Pit-med",
@@ -1155,46 +1043,18 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/badlands/VolcanicVent3_good.tml"
 					}
 			},{
-				"id": "SpiralTree",
-				"name": "SpiralTree",
+				"id": "LightHouse",
+				"name": "LightHouse",
 					"type": "File",
 					"required": {
 					"value": false,
 					"def": true
 				},
 			"artifact": {
-						"size": 21832,
-					"path": "mods/resources/ruins/obsolete/forest/SpiralTree.tml",
-					"MD5": "161a6aff372d448047b9ea862b00c65d",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/SpiralTree.tml"
-					}
-			},{
-				"id": "TreeDungeon",
-				"name": "TreeDungeon",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 6823,
-					"path": "mods/resources/ruins/obsolete/forest/TreeDungeon.tml",
-					"MD5": "b7c85781da2b65e968eb3af9dd953b88",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeDungeon.tml"
-					}
-			},{
-				"id": "TreeHouse",
-				"name": "TreeHouse",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 21812,
-					"path": "mods/resources/ruins/obsolete/forest/TreeHouse.tml",
-					"MD5": "cbb52cb9931494180d124f15dd1fbba4",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeHouse.tml"
+						"size": 14061,
+					"path": "mods/resources/ruins/obsolete/beach/LightHouse.tml",
+					"MD5": "85977774a8a614eedda62313f8b17024",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/beach/LightHouse.tml"
 					}
 			},{
 				"id": "DesertBarrow",
@@ -1827,6 +1687,48 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/desert/Ziggurat.tml"
 					}
 			},{
+				"id": "SpiralTree",
+				"name": "SpiralTree",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 21832,
+					"path": "mods/resources/ruins/obsolete/forest/SpiralTree.tml",
+					"MD5": "161a6aff372d448047b9ea862b00c65d",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/SpiralTree.tml"
+					}
+			},{
+				"id": "TreeDungeon",
+				"name": "TreeDungeon",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 6823,
+					"path": "mods/resources/ruins/obsolete/forest/TreeDungeon.tml",
+					"MD5": "b7c85781da2b65e968eb3af9dd953b88",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeDungeon.tml"
+					}
+			},{
+				"id": "TreeHouse",
+				"name": "TreeHouse",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 21812,
+					"path": "mods/resources/ruins/obsolete/forest/TreeHouse.tml",
+					"MD5": "cbb52cb9931494180d124f15dd1fbba4",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/forest/TreeHouse.tml"
+					}
+			},{
 				"id": "TP_FishingShack",
 				"name": "TP_FishingShack",
 					"type": "File",
@@ -2079,20 +1981,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/Barn-ruined.tml"
 					}
 			},{
-				"id": "Barrow",
-				"name": "Barrow",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 13381,
-					"path": "mods/resources/ruins/obsolete/plains/Barrow.tml",
-					"MD5": "a973741756c69adbb28a36d886cff589",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/Barrow.tml"
-					}
-			},{
 				"id": "Beacon",
 				"name": "Beacon",
 					"type": "File",
@@ -2105,6 +1993,20 @@
 					"path": "mods/resources/ruins/obsolete/plains/Beacon.tml",
 					"MD5": "99e80352533af3a7613f68068ecedd91",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/Beacon.tml"
+					}
+			},{
+				"id": "Barrow",
+				"name": "Barrow",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 13381,
+					"path": "mods/resources/ruins/obsolete/plains/Barrow.tml",
+					"MD5": "a973741756c69adbb28a36d886cff589",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/Barrow.tml"
 					}
 			},{
 				"id": "BlockHenge",
@@ -2751,6 +2653,20 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillagePig-p.tml"
 					}
 			},{
+				"id": "VanillaVillageWell-p",
+				"name": "VanillaVillageWell-p",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 3008,
+					"path": "mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml",
+					"MD5": "3aedd80394bccb4a9e34b0b24d567907",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml"
+					}
+			},{
 				"id": "WatchtowerIntact",
 				"name": "WatchtowerIntact",
 					"type": "File",
@@ -2791,20 +2707,6 @@
 					"path": "mods/resources/ruins/obsolete/plains/WaterTrapRoom.tml",
 					"MD5": "d2605414f0b3356b75d1ec6437a9ec96",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/WaterTrapRoom.tml"
-					}
-			},{
-				"id": "VanillaVillageWell-p",
-				"name": "VanillaVillageWell-p",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 3008,
-					"path": "mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml",
-					"MD5": "3aedd80394bccb4a9e34b0b24d567907",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/plains/VanillaVillageWell-p.tml"
 					}
 			},{
 				"id": "WoodHouse2_Intact",
@@ -2947,20 +2849,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/snow%20forest/SnowCastle.tml"
 					}
 			},{
-				"id": "SnowCastleIce",
-				"name": "SnowCastleIce",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 32506,
-					"path": "mods/resources/ruins/obsolete/snow forest/SnowCastleIce.tml",
-					"MD5": "0c1d43d5c5c0233987f3f079ef7bbcbf",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/snow%20forest/SnowCastleIce.tml"
-					}
-			},{
 				"id": "SnowCastleSpire",
 				"name": "SnowCastleSpire",
 					"type": "File",
@@ -2973,6 +2861,20 @@
 					"path": "mods/resources/ruins/obsolete/snow forest/SnowCastleSpire.tml",
 					"MD5": "7ed5c42947478cb740bf3012019e6bdd",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/snow%20forest/SnowCastleSpire.tml"
+					}
+			},{
+				"id": "SnowCastleIce",
+				"name": "SnowCastleIce",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 32506,
+					"path": "mods/resources/ruins/obsolete/snow forest/SnowCastleIce.tml",
+					"MD5": "0c1d43d5c5c0233987f3f079ef7bbcbf",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/obsolete/snow%20forest/SnowCastleIce.tml"
 					}
 			},{
 				"id": "SnowFarm",
@@ -3143,20 +3045,6 @@
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/optional/nether/LargeNetherHouse.tml"
 					}
 			},{
-				"id": "NetherShrine",
-				"name": "NetherShrine",
-					"type": "File",
-					"required": {
-					"value": false,
-					"def": true
-				},
-			"artifact": {
-						"size": 1261,
-					"path": "mods/resources/ruins/optional/nether/NetherShrine.tml",
-					"MD5": "8ccda95fdee2bd3a03066d7bd8565137",
-					"url": "https://cdn.worldautomation.net/mods/resources/ruins/optional/nether/NetherShrine.tml"
-					}
-			},{
 				"id": "Tower-nether",
 				"name": "Tower-nether",
 					"type": "File",
@@ -3169,6 +3057,20 @@
 					"path": "mods/resources/ruins/optional/nether/Tower-nether.tml",
 					"MD5": "283ea8d186aa3712dd30004da81c258a",
 					"url": "https://cdn.worldautomation.net/mods/resources/ruins/optional/nether/Tower-nether.tml"
+					}
+			},{
+				"id": "NetherShrine",
+				"name": "NetherShrine",
+					"type": "File",
+					"required": {
+					"value": false,
+					"def": true
+				},
+			"artifact": {
+						"size": 1261,
+					"path": "mods/resources/ruins/optional/nether/NetherShrine.tml",
+					"MD5": "8ccda95fdee2bd3a03066d7bd8565137",
+					"url": "https://cdn.worldautomation.net/mods/resources/ruins/optional/nether/NetherShrine.tml"
 					}
 			}]
 		}]

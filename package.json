@@ -16,6 +16,7 @@
   "homepage": "https://github.com/worldautomation/wa-mod-pack#readme",
   "dependencies": {
     "fs": "0.0.1-security",
+    "jsonlint": "^1.6.3",
     "md5-file": "^4.0.0",
     "node-dir": "^0.1.17",
     "path": "^0.12.7",
