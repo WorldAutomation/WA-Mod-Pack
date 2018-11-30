@@ -1,0 +1,52 @@
+directories:
+  output: dist
+  buildResources: build
+appId: wa-installer
+productName: WorldAutomation.Net
+artifactName: 'WA-Installer.${ext}'
+copyright: Copyright Â©2018 WorldAutomation.Net
+win:
+  publish:
+    - provider: generic
+      url: 'https://cdn.worldautomation.net/dist'
+  target:
+    - target: nsis
+      arch: x64
+  icon: build/icon.ico
+nsis:
+  oneClick: false
+  perMachine: true
+  allowElevation: true
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+mac:
+  publish:
+    - provider: generic
+      url: 'https://cdn.worldautomation.net/dist'
+  target: dmg
+  category: public.app-category.games
+  icon: build/icon.icns
+  type: distribution
+linux:
+  publish:
+    - provider: generic
+      url: 'https://cdn.worldautomation.net/dist'
+  target: AppImage
+  maintainer: WorldAutomation.Net
+  vendor: WorldAutomation.Net
+  synopsis: Custom modded launcher for WorldAutomation.Net
+  description: 'Custom launcher which allows users to join WorldAutomation.Net. All mods, configurations, and updates are handled automatically.'
+  category: Game
+deb:
+  compression: xz
+  packageCategory: Games
+  priority: optional
+compression: maximum
+files:
+  - filter:
+      - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.travis.yml,.nvmrc,.eslintrc.scripts.json,.eslintrc.json}'
+extraResources:
+  - filter:
+      - libraries
+asar: true
+electronVersion: 3.0.10

@@ -1,0 +1,8 @@
+version: 4.0.2
+files:
+  - url: WA-Installer.exe
+    sha512: Fx/LgnyCQnsOfSOU02kZu5cZKOPDcyttai0r4Xl/wTOKkkYwILm+LfH0Zm8MAP09q/0OuYIMCoNI/XyOCKcNBA==
+    size: 60090602
+path: WA-Installer.exe
+sha512: Fx/LgnyCQnsOfSOU02kZu5cZKOPDcyttai0r4Xl/wTOKkkYwILm+LfH0Zm8MAP09q/0OuYIMCoNI/XyOCKcNBA==
+releaseDate: '2018-11-30T20:39:01.831Z'
