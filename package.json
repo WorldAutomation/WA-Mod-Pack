@@ -1,0 +1,24 @@
+{
+  "name": "resist-mod-pack",
+  "version": "1.0.0",
+  "description": "resist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./cdn.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worldautomation/wa-mod-pack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/worldautomation/wa-mod-pack#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "md5-file": "^4.0.0",
+    "node-dir": "^0.1.17",
+    "path": "^0.12.7",
+    "readdirp": "^2.2.1"
+  }
+}

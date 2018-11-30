@@ -1,0 +1,5 @@
+dist/win-unpacked
+dist/linux-unpacked
+dist/.icon-set
+node_modules
+node_modules/*
