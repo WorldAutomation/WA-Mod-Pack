@@ -2,6 +2,6 @@
 cd "$(dirname "$0")"
 cd ~/WA-Mod-Pack;
 ./pull.sh;
-npm update http-server -g;
+npm install http-server -g;
 http-server -p 9090 .;
 
