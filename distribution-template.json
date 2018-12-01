@@ -11,9 +11,9 @@
 	"rss": "https://www.worlautomation.net/feed/",
 	"servers": [{
 		"id": "current",
-		"name": "WorldAutomation.Net (Main Server)",
-		"description": "A good place to start! Currently the only one.",
-		"icon": "https://cdn.worldautomation.net/images/icon.ico",
+		"name": "WorldAutomation.Net",
+		"description": "Want to play a game?",
+		"icon": "https://cdn.worldautomation.net/images/wa-logo.png",
 		"version": "9.0.0",
 		"address": "mc.worldautomation.net",
 		"minecraftVersion": "1.7.10",
