@@ -8,7 +8,7 @@ copyright: Copyright Â©2018 WorldAutomation.Net
 win:
   publish:
     - provider: generic
-      url: 'http://cdn.worldautomation.net/dist'
+      url: 'https://cdn.worldautomation.net/dist'
   target:
     - target: nsis
       arch: x64
@@ -22,7 +22,7 @@ nsis:
 mac:
   publish:
     - provider: generic
-      url: 'http://cdn.worldautomation.net/dist'
+      url: 'https://cdn.worldautomation.net/dist'
   target: dmg
   category: public.app-category.games
   icon: build/icon.icns
@@ -30,7 +30,7 @@ mac:
 linux:
   publish:
     - provider: generic
-      url: 'http://cdn.worldautomation.net/dist'
+      url: 'https://cdn.worldautomation.net/dist'
   target: AppImage
   maintainer: WorldAutomation.Net
   vendor: WorldAutomation.Net

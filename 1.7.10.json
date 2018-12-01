@@ -208,7 +208,7 @@
           "path": "com/google/guava/guava/15.0/guava-16.0.1.jar",
           "sha1": "ed727a8d9f247e2050281cb083f1c77b09dcb5cd",
           "size": 2172168,
-          "url": "http://cdn.worldautomation.net/libraries/guava-16.0.1.jar"
+          "url": "https://cdn.worldautomation.net/libraries/guava-16.0.1.jar"
         }
       },
       "name": "com.google.guava:guava:16.0.1"
