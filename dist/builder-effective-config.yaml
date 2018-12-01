@@ -4,11 +4,11 @@ directories:
 appId: wa-installer
 productName: WorldAutomation.Net
 artifactName: 'WA-Installer.${ext}'
-copyright: Copyright Â©2018 WorldAutomation.Net
+copyright: Copyright ©2018 WorldAutomation.Net
 win:
   publish:
     - provider: generic
-      url: 'https://cdn.worldautomation.net/dist'
+      url: 'https://www.worldautomation.net/dist'
   target:
     - target: nsis
       arch: x64
@@ -22,7 +22,7 @@ nsis:
 mac:
   publish:
     - provider: generic
-      url: 'https://cdn.worldautomation.net/dist'
+      url: 'https://www.worldautomation.net/dist'
   target: dmg
   category: public.app-category.games
   icon: build/icon.icns
@@ -30,7 +30,7 @@ mac:
 linux:
   publish:
     - provider: generic
-      url: 'https://cdn.worldautomation.net/dist'
+      url: 'https://www.worldautomation.net/dist'
   target: AppImage
   maintainer: WorldAutomation.Net
   vendor: WorldAutomation.Net
@@ -49,4 +49,4 @@ extraResources:
   - filter:
       - libraries
 asar: true
-electronVersion: 3.0.10
+electronVersion: 3.0.8
