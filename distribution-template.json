@@ -1,5 +1,5 @@
 {
-	"version": "1.0.1",
+	"version": "1.2.0",
 	"discord": {
 		"clientId": "424758358839394304",
 		"smallImageText": "worldautomation.net",
@@ -14,7 +14,7 @@
 		"name": "WorldAutomation.Net",
 		"description": "Want to play a game?",
 		"icon": "https://cdn.worldautomation.net/images/wa-logo.png",
-		"version": "9.0.0",
+		"version": "9.0.1",
 		"address": "mc.worldautomation.net",
 		"minecraftVersion": "1.7.10",
 		"discord": {
