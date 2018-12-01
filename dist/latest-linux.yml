@@ -1,0 +1,9 @@
+version: 4.0.2
+files:
+  - url: WA-Installer.AppImage
+    sha512: e7GZAGyP6QHx2iCMr8ziYPNz1bX7zGJAcEIOctdDZNn98L5N3ybQw9lLWd2OzRXqA6Zb1wyMoZo+R/MCam2dgg==
+    size: 49519213
+    blockMapSize: 50097
+path: WA-Installer.AppImage
+sha512: e7GZAGyP6QHx2iCMr8ziYPNz1bX7zGJAcEIOctdDZNn98L5N3ybQw9lLWd2OzRXqA6Zb1wyMoZo+R/MCam2dgg==
+releaseDate: '2018-11-11T02:37:30.617Z'
