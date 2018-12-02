@@ -13,6 +13,9 @@ rm -rf /etc/nginx/nginx.conf
 ln -s /WA-Mod-Pack/setup/nginx.conf /etc/nginx/.
 ln -s /WA-Mod-Pack/setup/cdn.nginx /etc/nginx/sites-enabled/.
 chown -R www-data:www-data /WA-Mod-Pack
+ufw allow 80;
+ufw allow 9090;
+ufw allow 443;
 service nginx restart
 rm /root/.bashrc
 cp /WA-Mod-Pack/setup/bashrc /root/.bashrc
