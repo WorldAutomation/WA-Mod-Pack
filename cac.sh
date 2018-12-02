@@ -2,7 +2,10 @@
 cd "$(dirname "$0")"
 echo "Starting CAC CDN Setup for WorldAutomation.Net..."
 echo ""
-pvscan && vgextend localhost-vg /dev/sda3 && lvextend -l +100%FREE /dev/localhost-vg/root && resize2fs /dev/localhost-vg/root;
+pvscan;
+vgextend localhost-vg /dev/sda3;
+lvextend -l +100%FREE /dev/localhost-vg/root;
+resize2fs /dev/localhost-vg/root;
 apt-get update; 
 apt-get install nginx --yes; 
 rm -rf /etc/nginx/sites-enabled/*
