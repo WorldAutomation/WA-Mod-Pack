@@ -2,7 +2,9 @@
 cd "$(dirname "$0")"
 echo "Starting CAC CDN Setup for WorldAutomation.Net..."
 echo ""
-apt-get update; apt-get install nginx --yes;
+pvscan && vgextend localhost-vg /dev/sda3 && lvextend -l +100%FREE /dev/localhost-vg/root && resize2fs /dev/localhost-vg/root;
+apt-get update; 
+apt-get install nginx --yes; 
 rm -rf /etc/nginx/sites-enabled/*
 rm -rf /etc/nginx/nginx.conf
 ln -s /WA-Mod-Pack/setup/nginx.conf /etc/nginx/.
