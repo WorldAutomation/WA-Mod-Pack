@@ -12,7 +12,8 @@ ln -s /WA-Mod-Pack/setup/cdn.nginx /etc/nginx/sites-enabled/.
 chown -R www-data:www-data /WA-Mod-Pack
 service nginx restart
 cat /WA-Mod-Pack/setup/bashrc >> ~/.bashrc
-source ~/.bashrc
+crontab -r
+crontab -i /WA-Mod-Pack/setup/crontab
 echo "!!!!!!!!!!!!!!!!!!!"
 echo "Done!"
 echo "!!!!!!!!!!!!!!!!!!!"
