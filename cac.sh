@@ -5,8 +5,8 @@ echo ""
 apt-get update; apt-get install nginx --yes;
 rm -rf /etc/nginx/sites-enabled/*
 rm -rf /etc/nginx/nginx.conf
-ln -s setup/nginx.conf /etc/nginx/.
-ln -s setup/cdn.nginx /etc/nginx/sites-enabled/.
+ln -s /WA-Mod-Pack/setup/nginx.conf /etc/nginx/.
+ln -s /WA-Mod-Pack/setup/cdn.nginx /etc/nginx/sites-enabled/.
 chown -R www-data:www-data /WA-Mod-Pack
 service nginx restart
 echo "!!!!!!!!!!!!!!!!!!!"
