@@ -1,13 +1,13 @@
 [
   {
     "resourceLocation": "textures/gui/title/mojang.png",
-    "positionType": "TOP_LEFT",
+    "positionType": "LEFT",
     "type": "STATIC",
     "texture": {
       "x": 0,
       "y": 0,
-      "width": 256,
-      "height": 256
+      "width": 512,
+      "height": 512
     },
     "position": {
       "x": 0,
