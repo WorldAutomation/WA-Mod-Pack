@@ -62,8 +62,8 @@
             "shadow" : true,	
             "action" : 
             {
-                "type" : "connectToServer",
-                "ip" : "mc.worldautomation.net"
+                "type" : "opengui",
+                "gui" : "multiplayer"
             }
         },
                
