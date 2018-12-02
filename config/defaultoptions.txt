@@ -32,7 +32,7 @@ pauseOnLostFocus:true
 showCape:true
 touchscreen:false
 overrideWidth:856
-overrideHeight:842
+overrideHeight:482
 heldItemTooltips:true
 chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
