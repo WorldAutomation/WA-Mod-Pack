@@ -3,3 +3,7 @@
 # Grab any New Changed Files Every Minute
 #
 */1 * * * * chmod +x /WA-Mod-Pack/*.sh; /WA-Mod-Pack/pull.sh
+
+#
+# EOF
+#
