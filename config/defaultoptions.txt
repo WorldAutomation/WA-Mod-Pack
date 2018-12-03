@@ -21,7 +21,7 @@ lang:en_US
 chatVisibility:0
 chatColors:true
 chatLinks:true
-chatLinksPrompt:true
+chatLinksPrompt:false
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
@@ -54,7 +54,7 @@ streamChatUserFilter:0
 streamMicToggleBehavior:0
 forceUnicodeFont:false
 soundCategory_master:1.0
-soundCategory_music:0.6760563
+soundCategory_music:0.2535211
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
