@@ -31,8 +31,8 @@ advancedItemTooltips:false
 pauseOnLostFocus:true
 showCape:true
 touchscreen:false
-overrideWidth:856
-overrideHeight:482
+overrideWidth:980
+overrideHeight:552
 heldItemTooltips:true
 chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196

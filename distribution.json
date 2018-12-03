@@ -15,7 +15,7 @@
       "name": "WorldAutomation.Net",
       "description": "Want to play a game?",
       "icon": "https://cdn.worldautomation.net/images/wa-logo.png",
-      "version": "9.1.8.0",
+      "version": "9.1.8.1",
       "address": "mc.worldautomation.net",
       "minecraftVersion": "1.7.10",
       "discord": {
@@ -659,7 +659,7 @@
           "artifact": {
             "size": 1296,
             "path": "/config/defaultoptions.txt",
-            "MD5": "e0d8d2084e9774225316656d1591855c",
+            "MD5": "a796a61f72f349678b993b2db6bd7f27",
             "url": "https://cdn.worldautomation.net//config/defaultoptions.txt"
           }
         },
@@ -1684,21 +1684,6 @@
           }
         },
         {
-          "id": "SolarExpansion",
-          "name": "SolarExpansion",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 0,
-            "path": "/config/SolarExpansion.cfg",
-            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
-            "url": "https://cdn.worldautomation.net//config/SolarExpansion.cfg"
-          }
-        },
-        {
           "id": "splash",
           "name": "splash",
           "type": "File",
@@ -1711,6 +1696,21 @@
             "path": "/config/splash.properties",
             "MD5": "856939230cabb6819afbe3f4995563e3",
             "url": "https://cdn.worldautomation.net//config/splash.properties"
+          }
+        },
+        {
+          "id": "SolarExpansion",
+          "name": "SolarExpansion",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 0,
+            "path": "/config/SolarExpansion.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://cdn.worldautomation.net//config/SolarExpansion.cfg"
           }
         },
         {
@@ -1954,6 +1954,21 @@
           }
         },
         {
+          "id": "GrassDrops",
+          "name": "GrassDrops",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 406,
+            "path": "/config/agricraft/GrassDrops.txt",
+            "MD5": "b12b81cba16c49435aab2db5a3a78512",
+            "url": "https://cdn.worldautomation.net//config/agricraft/GrassDrops.txt"
+          }
+        },
+        {
           "id": "Mutations",
           "name": "Mutations",
           "type": "File",
@@ -2011,21 +2026,6 @@
             "path": "/config/agricraft/SoilWhitelist.txt",
             "MD5": "99e75df9ead9acdbb0996752c98fd6e1",
             "url": "https://cdn.worldautomation.net//config/agricraft/SoilWhitelist.txt"
-          }
-        },
-        {
-          "id": "GrassDrops",
-          "name": "GrassDrops",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 406,
-            "path": "/config/agricraft/GrassDrops.txt",
-            "MD5": "b12b81cba16c49435aab2db5a3a78512",
-            "url": "https://cdn.worldautomation.net//config/agricraft/GrassDrops.txt"
           }
         },
         {
@@ -2134,21 +2134,6 @@
           }
         },
         {
-          "id": "images",
-          "name": "images",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1576,
-            "path": "/config/BetterLoadingScreen/images.json",
-            "MD5": "3f5a57676d627e7435e43df3af2bbbd0",
-            "url": "https://cdn.worldautomation.net//config/BetterLoadingScreen/images.json"
-          }
-        },
-        {
           "id": "preset one",
           "name": "preset one",
           "type": "File",
@@ -2161,6 +2146,21 @@
             "path": "/config/BetterLoadingScreen/preset one.json",
             "MD5": "bfb15e343a5c264a6548dd110742b007",
             "url": "https://cdn.worldautomation.net//config/BetterLoadingScreen/preset%20one.json"
+          }
+        },
+        {
+          "id": "images",
+          "name": "images",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1576,
+            "path": "/config/BetterLoadingScreen/images.json",
+            "MD5": "d922d644c79c5da26800fac24e09b1c9",
+            "url": "https://cdn.worldautomation.net//config/BetterLoadingScreen/images.json"
           }
         },
         {
@@ -2209,21 +2209,6 @@
           }
         },
         {
-          "id": "objects",
-          "name": "objects",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2462,
-            "path": "/config/buildcraft/objects.cfg",
-            "MD5": "f53ce2e07a345a565188c7e72fc9edf0",
-            "url": "https://cdn.worldautomation.net//config/buildcraft/objects.cfg"
-          }
-        },
-        {
           "id": "main",
           "name": "main",
           "type": "File",
@@ -2239,18 +2224,18 @@
           }
         },
         {
-          "id": "help",
-          "name": "help",
+          "id": "objects",
+          "name": "objects",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 14729,
-            "path": "/config/dcMainMenu/help.txt",
-            "MD5": "d6acdb2148fa1a44650b075fa7872cd6",
-            "url": "https://cdn.worldautomation.net//config/dcMainMenu/help.txt"
+            "size": 2462,
+            "path": "/config/buildcraft/objects.cfg",
+            "MD5": "f53ce2e07a345a565188c7e72fc9edf0",
+            "url": "https://cdn.worldautomation.net//config/buildcraft/objects.cfg"
           }
         },
         {
@@ -2266,6 +2251,21 @@
             "path": "/config/CustomMainMenu/mainmenu.json",
             "MD5": "7f4346c4388a2e77d285d17c84bd74f6",
             "url": "https://cdn.worldautomation.net//config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "help",
+          "name": "help",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 14729,
+            "path": "/config/dcMainMenu/help.txt",
+            "MD5": "d6acdb2148fa1a44650b075fa7872cd6",
+            "url": "https://cdn.worldautomation.net//config/dcMainMenu/help.txt"
           }
         },
         {
@@ -2569,21 +2569,6 @@
           }
         },
         {
-          "id": "config",
-          "name": "config",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 466,
-            "path": "/config/EnhancedPortals/config.cfg",
-            "MD5": "c56ccc01b92034e17c35a5a31530acbe",
-            "url": "https://cdn.worldautomation.net//config/EnhancedPortals/config.cfg"
-          }
-        },
-        {
           "id": "general",
           "name": "general",
           "type": "File",
@@ -2611,6 +2596,96 @@
             "path": "/config/endertech/items.cfg",
             "MD5": "92e314195733b1414f91e0400efc21b9",
             "url": "https://cdn.worldautomation.net//config/endertech/items.cfg"
+          }
+        },
+        {
+          "id": "config",
+          "name": "config",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 466,
+            "path": "/config/EnhancedPortals/config.cfg",
+            "MD5": "c56ccc01b92034e17c35a5a31530acbe",
+            "url": "https://cdn.worldautomation.net//config/EnhancedPortals/config.cfg"
+          }
+        },
+        {
+          "id": "chunkloading",
+          "name": "chunkloading",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 157,
+            "path": "/config/Galacticraft/chunkloading.conf",
+            "MD5": "b5ef1f473fd07f4c6c117064ed49a840",
+            "url": "https://cdn.worldautomation.net//config/Galacticraft/chunkloading.conf"
+          }
+        },
+        {
+          "id": "core",
+          "name": "core",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 10891,
+            "path": "/config/Galacticraft/core.conf",
+            "MD5": "b54f57efef988381fd86e73a6f73afce",
+            "url": "https://cdn.worldautomation.net//config/Galacticraft/core.conf"
+          }
+        },
+        {
+          "id": "miccore",
+          "name": "miccore",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 302,
+            "path": "/config/Galacticraft/miccore.conf",
+            "MD5": "3fc0de865e6ce59fa3cd6bb04e922bca",
+            "url": "https://cdn.worldautomation.net//config/Galacticraft/miccore.conf"
+          }
+        },
+        {
+          "id": "planets",
+          "name": "planets",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2278,
+            "path": "/config/Galacticraft/planets.conf",
+            "MD5": "aba93c85227a5572e252fe3d6dfc542d",
+            "url": "https://cdn.worldautomation.net//config/Galacticraft/planets.conf"
+          }
+        },
+        {
+          "id": "power-GC3",
+          "name": "power-GC3",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1176,
+            "path": "/config/Galacticraft/power-GC3.conf",
+            "MD5": "2247162d8047ef5a2a92adfcfb96de5f",
+            "url": "https://cdn.worldautomation.net//config/Galacticraft/power-GC3.conf"
           }
         },
         {
@@ -2734,21 +2809,6 @@
           }
         },
         {
-          "id": "peaceful",
-          "name": "peaceful",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2573,
-            "path": "/config/opencomputers/peaceful.recipes",
-            "MD5": "a82d9567f6aa63634283aa979456c6ef",
-            "url": "https://cdn.worldautomation.net//config/opencomputers/peaceful.recipes"
-          }
-        },
-        {
           "id": "user",
           "name": "user",
           "type": "File",
@@ -2761,6 +2821,21 @@
             "path": "/config/opencomputers/user.recipes",
             "MD5": "3d73e5a17c471ee629cfddae571a3fca",
             "url": "https://cdn.worldautomation.net//config/opencomputers/user.recipes"
+          }
+        },
+        {
+          "id": "peaceful",
+          "name": "peaceful",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2573,
+            "path": "/config/opencomputers/peaceful.recipes",
+            "MD5": "a82d9567f6aa63634283aa979456c6ef",
+            "url": "https://cdn.worldautomation.net//config/opencomputers/peaceful.recipes"
           }
         },
         {
@@ -2854,21 +2929,6 @@
           }
         },
         {
-          "id": "modules",
-          "name": "modules",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1281,
-            "path": "/config/railcraft/modules.cfg",
-            "MD5": "2b800d8d30b13b22f9822126294571e9",
-            "url": "https://cdn.worldautomation.net//config/railcraft/modules.cfg"
-          }
-        },
-        {
           "id": "railcraft",
           "name": "railcraft",
           "type": "File",
@@ -2881,6 +2941,21 @@
             "path": "/config/railcraft/railcraft.cfg",
             "MD5": "e3945247bca7d10bcef76896e8d003f4",
             "url": "https://cdn.worldautomation.net//config/railcraft/railcraft.cfg"
+          }
+        },
+        {
+          "id": "modules",
+          "name": "modules",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1281,
+            "path": "/config/railcraft/modules.cfg",
+            "MD5": "2b800d8d30b13b22f9822126294571e9",
+            "url": "https://cdn.worldautomation.net//config/railcraft/modules.cfg"
           }
         },
         {
@@ -2914,21 +2989,6 @@
           }
         },
         {
-          "id": "smoothfont",
-          "name": "smoothfont",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 8620,
-            "path": "/config/smoothfont/smoothfont.cfg",
-            "MD5": "6adcc6d38cca1a4af57869fc5cd70677",
-            "url": "https://cdn.worldautomation.net//config/smoothfont/smoothfont.cfg"
-          }
-        },
-        {
           "id": "Mantle",
           "name": "Mantle",
           "type": "File",
@@ -2941,6 +3001,21 @@
             "path": "/config/SlimeKnights/Mantle.cfg",
             "MD5": "22b5922c80304aee86d8c65baddb4514",
             "url": "https://cdn.worldautomation.net//config/SlimeKnights/Mantle.cfg"
+          }
+        },
+        {
+          "id": "smoothfont",
+          "name": "smoothfont",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 8620,
+            "path": "/config/smoothfont/smoothfont.cfg",
+            "MD5": "6adcc6d38cca1a4af57869fc5cd70677",
+            "url": "https://cdn.worldautomation.net//config/smoothfont/smoothfont.cfg"
           }
         },
         {
@@ -3169,78 +3244,18 @@
           }
         },
         {
-          "id": "chunkloading",
-          "name": "chunkloading",
+          "id": "readme",
+          "name": "readme",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 157,
-            "path": "/config/Galacticraft/chunkloading.conf",
-            "MD5": "b5ef1f473fd07f4c6c117064ed49a840",
-            "url": "https://cdn.worldautomation.net//config/Galacticraft/chunkloading.conf"
-          }
-        },
-        {
-          "id": "core",
-          "name": "core",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 10891,
-            "path": "/config/Galacticraft/core.conf",
-            "MD5": "b54f57efef988381fd86e73a6f73afce",
-            "url": "https://cdn.worldautomation.net//config/Galacticraft/core.conf"
-          }
-        },
-        {
-          "id": "miccore",
-          "name": "miccore",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 302,
-            "path": "/config/Galacticraft/miccore.conf",
-            "MD5": "3fc0de865e6ce59fa3cd6bb04e922bca",
-            "url": "https://cdn.worldautomation.net//config/Galacticraft/miccore.conf"
-          }
-        },
-        {
-          "id": "planets",
-          "name": "planets",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2278,
-            "path": "/config/Galacticraft/planets.conf",
-            "MD5": "aba93c85227a5572e252fe3d6dfc542d",
-            "url": "https://cdn.worldautomation.net//config/Galacticraft/planets.conf"
-          }
-        },
-        {
-          "id": "power-GC3",
-          "name": "power-GC3",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1176,
-            "path": "/config/Galacticraft/power-GC3.conf",
-            "MD5": "2247162d8047ef5a2a92adfcfb96de5f",
-            "url": "https://cdn.worldautomation.net//config/Galacticraft/power-GC3.conf"
+            "size": 202,
+            "path": "/config/AE2Stuff/readme.txt",
+            "MD5": "a31c7deefb9985e7e6338ab2ace29a2c",
+            "url": "https://cdn.worldautomation.net//config/AE2Stuff/readme.txt"
           }
         },
         {
@@ -3271,21 +3286,6 @@
             "path": "/config/AdvGenerators/readme.txt",
             "MD5": "a31c7deefb9985e7e6338ab2ace29a2c",
             "url": "https://cdn.worldautomation.net//config/AdvGenerators/readme.txt"
-          }
-        },
-        {
-          "id": "readme",
-          "name": "readme",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 202,
-            "path": "/config/AE2Stuff/readme.txt",
-            "MD5": "a31c7deefb9985e7e6338ab2ace29a2c",
-            "url": "https://cdn.worldautomation.net//config/AE2Stuff/readme.txt"
           }
         },
         {
@@ -3439,6 +3439,126 @@
           }
         },
         {
+          "id": "biomegen",
+          "name": "biomegen",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3278,
+            "path": "/config/biomesoplenty/biomegen.cfg",
+            "MD5": "95ce70b031f0d6a2715cb28d174f63cf",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/biomegen.cfg"
+          }
+        },
+        {
+          "id": "ids",
+          "name": "ids",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2457,
+            "path": "/config/biomesoplenty/ids.cfg",
+            "MD5": "b99f23816859a79cfc41f044303098ac",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/ids.cfg"
+          }
+        },
+        {
+          "id": "biomeweights",
+          "name": "biomeweights",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1571,
+            "path": "/config/biomesoplenty/biomeweights.cfg",
+            "MD5": "7b4221e560db92c8f08f7c0cf3346f3b",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/biomeweights.cfg"
+          }
+        },
+        {
+          "id": "main",
+          "name": "main",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 346,
+            "path": "/config/biomesoplenty/main.cfg",
+            "MD5": "10f07bbcf707bc0ed76c8ec35ee77b33",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/main.cfg"
+          }
+        },
+        {
+          "id": "misc",
+          "name": "misc",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 532,
+            "path": "/config/biomesoplenty/misc.cfg",
+            "MD5": "af4b7ab0fe76b77c1dafda82633ed9d6",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/misc.cfg"
+          }
+        },
+        {
+          "id": "terraingen",
+          "name": "terraingen",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 829,
+            "path": "/config/biomesoplenty/terraingen.cfg",
+            "MD5": "6ad291e78eb03f2b9a0e005a9ad96556",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/terraingen.cfg"
+          }
+        },
+        {
+          "id": "strongholds",
+          "name": "strongholds",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1483,
+            "path": "/config/biomesoplenty/structures/strongholds.cfg",
+            "MD5": "1d468b7774446805bbd9cb59d1fd0898",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/structures/strongholds.cfg"
+          }
+        },
+        {
+          "id": "villages",
+          "name": "villages",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 1641,
+            "path": "/config/biomesoplenty/structures/villages.cfg",
+            "MD5": "2daac9f812871a0d0642835ac63df41e",
+            "url": "https://cdn.worldautomation.net//config/biomesoplenty/structures/villages.cfg"
+          }
+        },
+        {
           "id": "AbstractBlock",
           "name": "AbstractBlock",
           "type": "File",
@@ -3589,21 +3709,6 @@
           }
         },
         {
-          "id": "lepidopterology",
-          "name": "lepidopterology",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 491,
-            "path": "/config/forestry/lepidopterology.cfg",
-            "MD5": "406cd616e98b6c488d48b9950ccc25df",
-            "url": "https://cdn.worldautomation.net//config/forestry/lepidopterology.cfg"
-          }
-        },
-        {
           "id": "modules",
           "name": "modules",
           "type": "File",
@@ -3616,6 +3721,21 @@
             "path": "/config/forestry/modules.cfg",
             "MD5": "ab10b0812fb24e0722851670eded0000",
             "url": "https://cdn.worldautomation.net//config/forestry/modules.cfg"
+          }
+        },
+        {
+          "id": "lepidopterology",
+          "name": "lepidopterology",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 491,
+            "path": "/config/forestry/lepidopterology.cfg",
+            "MD5": "406cd616e98b6c488d48b9950ccc25df",
+            "url": "https://cdn.worldautomation.net//config/forestry/lepidopterology.cfg"
           }
         },
         {
@@ -3874,138 +3994,18 @@
           }
         },
         {
-          "id": "biomegen",
-          "name": "biomegen",
+          "id": "common",
+          "name": "common",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 3278,
-            "path": "/config/biomesoplenty/biomegen.cfg",
-            "MD5": "95ce70b031f0d6a2715cb28d174f63cf",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/biomegen.cfg"
-          }
-        },
-        {
-          "id": "biomeweights",
-          "name": "biomeweights",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1571,
-            "path": "/config/biomesoplenty/biomeweights.cfg",
-            "MD5": "7b4221e560db92c8f08f7c0cf3346f3b",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/biomeweights.cfg"
-          }
-        },
-        {
-          "id": "ids",
-          "name": "ids",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2457,
-            "path": "/config/biomesoplenty/ids.cfg",
-            "MD5": "b99f23816859a79cfc41f044303098ac",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/ids.cfg"
-          }
-        },
-        {
-          "id": "main",
-          "name": "main",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 346,
-            "path": "/config/biomesoplenty/main.cfg",
-            "MD5": "10f07bbcf707bc0ed76c8ec35ee77b33",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/main.cfg"
-          }
-        },
-        {
-          "id": "misc",
-          "name": "misc",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 532,
-            "path": "/config/biomesoplenty/misc.cfg",
-            "MD5": "af4b7ab0fe76b77c1dafda82633ed9d6",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/misc.cfg"
-          }
-        },
-        {
-          "id": "terraingen",
-          "name": "terraingen",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 829,
-            "path": "/config/biomesoplenty/terraingen.cfg",
-            "MD5": "6ad291e78eb03f2b9a0e005a9ad96556",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/terraingen.cfg"
-          }
-        },
-        {
-          "id": "strongholds",
-          "name": "strongholds",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1483,
-            "path": "/config/biomesoplenty/structures/strongholds.cfg",
-            "MD5": "1d468b7774446805bbd9cb59d1fd0898",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/structures/strongholds.cfg"
-          }
-        },
-        {
-          "id": "villages",
-          "name": "villages",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1641,
-            "path": "/config/biomesoplenty/structures/villages.cfg",
-            "MD5": "2daac9f812871a0d0642835ac63df41e",
-            "url": "https://cdn.worldautomation.net//config/biomesoplenty/structures/villages.cfg"
-          }
-        },
-        {
-          "id": "client",
-          "name": "client",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 2941,
-            "path": "/config/cofh/core/client.cfg",
-            "MD5": "0c77b010b0d39d9fc74c8ed893480e87",
-            "url": "https://cdn.worldautomation.net//config/cofh/core/client.cfg"
+            "size": 3310,
+            "path": "/config/cofh/redstonearsenal/common.cfg",
+            "MD5": "07acb5a501e58302fbe9fabc3c64d599",
+            "url": "https://cdn.worldautomation.net//config/cofh/redstonearsenal/common.cfg"
           }
         },
         {
@@ -4021,6 +4021,21 @@
             "path": "/config/cofh/core/common.cfg",
             "MD5": "d894ac00ce6bdc858dd96c2dec51e490",
             "url": "https://cdn.worldautomation.net//config/cofh/core/common.cfg"
+          }
+        },
+        {
+          "id": "client",
+          "name": "client",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2941,
+            "path": "/config/cofh/core/client.cfg",
+            "MD5": "0c77b010b0d39d9fc74c8ed893480e87",
+            "url": "https://cdn.worldautomation.net//config/cofh/core/client.cfg"
           }
         },
         {
@@ -4062,10 +4077,10 @@
             "def": true
           },
           "artifact": {
-            "size": 3310,
-            "path": "/config/cofh/redstonearsenal/common.cfg",
-            "MD5": "07acb5a501e58302fbe9fabc3c64d599",
-            "url": "https://cdn.worldautomation.net//config/cofh/redstonearsenal/common.cfg"
+            "size": 1124,
+            "path": "/config/cofh/thermaldynamics/common.cfg",
+            "MD5": "9a3fe85e844de79ae7254a944bf0524f",
+            "url": "https://cdn.worldautomation.net//config/cofh/thermaldynamics/common.cfg"
           }
         },
         {
@@ -4084,21 +4099,6 @@
           }
         },
         {
-          "id": "common",
-          "name": "common",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 1124,
-            "path": "/config/cofh/thermaldynamics/common.cfg",
-            "MD5": "9a3fe85e844de79ae7254a944bf0524f",
-            "url": "https://cdn.worldautomation.net//config/cofh/thermaldynamics/common.cfg"
-          }
-        },
-        {
           "id": "client",
           "name": "client",
           "type": "File",
@@ -4111,21 +4111,6 @@
             "path": "/config/cofh/thermalfoundation/client.cfg",
             "MD5": "cf55e84e27eff396b967feb75da80788",
             "url": "https://cdn.worldautomation.net//config/cofh/thermalfoundation/client.cfg"
-          }
-        },
-        {
-          "id": "common",
-          "name": "common",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 12019,
-            "path": "/config/cofh/thermalfoundation/common.cfg",
-            "MD5": "4fa82cd2ac776e1153dba938d89fce0a",
-            "url": "https://cdn.worldautomation.net//config/cofh/thermalfoundation/common.cfg"
           }
         },
         {
@@ -4144,18 +4129,18 @@
           }
         },
         {
-          "id": "ThermalFoundation-Ores",
-          "name": "ThermalFoundation-Ores",
+          "id": "common",
+          "name": "common",
           "type": "File",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 3445,
-            "path": "/config/cofh/world/ThermalFoundation-Ores.json",
-            "MD5": "9a76bc41242abf51b29bc189ab5ed861",
-            "url": "https://cdn.worldautomation.net//config/cofh/world/ThermalFoundation-Ores.json"
+            "size": 12019,
+            "path": "/config/cofh/thermalfoundation/common.cfg",
+            "MD5": "4fa82cd2ac776e1153dba938d89fce0a",
+            "url": "https://cdn.worldautomation.net//config/cofh/thermalfoundation/common.cfg"
           }
         },
         {
@@ -4171,6 +4156,21 @@
             "path": "/config/cofh/world/Vanilla.json",
             "MD5": "0599e13750e05ca052f9ddaff9284579",
             "url": "https://cdn.worldautomation.net//config/cofh/world/Vanilla.json"
+          }
+        },
+        {
+          "id": "ThermalFoundation-Ores",
+          "name": "ThermalFoundation-Ores",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3445,
+            "path": "/config/cofh/world/ThermalFoundation-Ores.json",
+            "MD5": "9a76bc41242abf51b29bc189ab5ed861",
+            "url": "https://cdn.worldautomation.net//config/cofh/world/ThermalFoundation-Ores.json"
           }
         },
         {
@@ -4204,21 +4204,6 @@
           }
         },
         {
-          "id": "fuels",
-          "name": "fuels",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3107,
-            "path": "/config/cofh/thermalexpansion/fuels.cfg",
-            "MD5": "e899d256d106e1e565f81d34ef7ffb9d",
-            "url": "https://cdn.worldautomation.net//config/cofh/thermalexpansion/fuels.cfg"
-          }
-        },
-        {
           "id": "florbs",
           "name": "florbs",
           "type": "File",
@@ -4231,6 +4216,21 @@
             "path": "/config/cofh/thermalexpansion/florbs.cfg",
             "MD5": "473ee35bb98addc0052438fb91d9859e",
             "url": "https://cdn.worldautomation.net//config/cofh/thermalexpansion/florbs.cfg"
+          }
+        },
+        {
+          "id": "fuels",
+          "name": "fuels",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3107,
+            "path": "/config/cofh/thermalexpansion/fuels.cfg",
+            "MD5": "e899d256d106e1e565f81d34ef7ffb9d",
+            "url": "https://cdn.worldautomation.net//config/cofh/thermalexpansion/fuels.cfg"
           }
         },
         {
@@ -4279,21 +4279,6 @@
           }
         },
         {
-          "id": "org.wa:mod:0864",
-          "name": "AOBD-2.9.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 211318,
-            "path": "/modstore/AOBD-2.9.2.jar",
-            "MD5": "0864caf4280229154ca7f158502d4bee",
-            "url": "https://cdn.worldautomation.net//mods/AOBD-2.9.2.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:1210",
           "name": "AgriCraft-1.7.10-1.5.0",
           "type": "ForgeMod",
@@ -4306,6 +4291,21 @@
             "path": "/modstore/AgriCraft-1.7.10-1.5.0.jar",
             "MD5": "12103c50b42df790479492781326928d",
             "url": "https://cdn.worldautomation.net//mods/AgriCraft-1.7.10-1.5.0.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:0864",
+          "name": "AOBD-2.9.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 211318,
+            "path": "/modstore/AOBD-2.9.2.jar",
+            "MD5": "0864caf4280229154ca7f158502d4bee",
+            "url": "https://cdn.worldautomation.net//mods/AOBD-2.9.2.jar"
           }
         },
         {
@@ -4489,21 +4489,6 @@
           }
         },
         {
-          "id": "org.wa:mod:4cfb",
-          "name": "BrandonsCore-1.0.0.12",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 92269,
-            "path": "/modstore/BrandonsCore-1.0.0.12.jar",
-            "MD5": "4cfb5db069cf6019ea602cbc1c32cc31",
-            "url": "https://cdn.worldautomation.net//mods/BrandonsCore-1.0.0.12.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:757c",
           "name": "Botania r1.8-249",
           "type": "ForgeMod",
@@ -4516,6 +4501,21 @@
             "path": "/modstore/Botania r1.8-249.jar",
             "MD5": "757cfb6db285068b617c382fc7a1e9ed",
             "url": "https://cdn.worldautomation.net//mods/Botania%20r1.8-249.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:4cfb",
+          "name": "BrandonsCore-1.0.0.12",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 92269,
+            "path": "/modstore/BrandonsCore-1.0.0.12.jar",
+            "MD5": "4cfb5db069cf6019ea602cbc1c32cc31",
+            "url": "https://cdn.worldautomation.net//mods/BrandonsCore-1.0.0.12.jar"
           }
         },
         {
@@ -4939,21 +4939,6 @@
           }
         },
         {
-          "id": "org.wa:mod:c4ef",
-          "name": "GalacticraftCore-1.7-3.0.12.502",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 9340536,
-            "path": "/modstore/GalacticraftCore-1.7-3.0.12.502.jar",
-            "MD5": "c4efc54c78ca5d0716c97e6bcb937530",
-            "url": "https://cdn.worldautomation.net//mods/GalacticraftCore-1.7-3.0.12.502.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:716e",
           "name": "Galacticraft-Planets-1.7-3.0.12.502",
           "type": "ForgeMod",
@@ -4981,6 +4966,21 @@
             "path": "/modstore/gendustry-1.6.3.132-mc1.7.10.jar",
             "MD5": "5d8dc7b38296d2f7b71267847caa5b71",
             "url": "https://cdn.worldautomation.net//mods/gendustry-1.6.3.132-mc1.7.10.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:c4ef",
+          "name": "GalacticraftCore-1.7-3.0.12.502",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 9340536,
+            "path": "/modstore/GalacticraftCore-1.7-3.0.12.502.jar",
+            "MD5": "c4efc54c78ca5d0716c97e6bcb937530",
+            "url": "https://cdn.worldautomation.net//mods/GalacticraftCore-1.7-3.0.12.502.jar"
           }
         },
         {
@@ -5014,6 +5014,21 @@
           }
         },
         {
+          "id": "org.wa:mod:9f90",
+          "name": "iChunUtil-4.2.3",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 213084,
+            "path": "/modstore/iChunUtil-4.2.3.jar",
+            "MD5": "9f90848755f2c3002996b86b57dee2f1",
+            "url": "https://cdn.worldautomation.net//mods/iChunUtil-4.2.3.jar"
+          }
+        },
+        {
           "id": "org.wa:mod:51dd",
           "name": "ICBM-1.7.10-2.15.5b514",
           "type": "ForgeMod",
@@ -5041,21 +5056,6 @@
             "path": "/modstore/IGW-Mod-1.7.10-1.1.12-34-universal.jar",
             "MD5": "48cb8aa894d046bbbada670e124cbfaf",
             "url": "https://cdn.worldautomation.net//mods/IGW-Mod-1.7.10-1.1.12-34-universal.jar"
-          }
-        },
-        {
-          "id": "org.wa:mod:9f90",
-          "name": "iChunUtil-4.2.3",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 213084,
-            "path": "/modstore/iChunUtil-4.2.3.jar",
-            "MD5": "9f90848755f2c3002996b86b57dee2f1",
-            "url": "https://cdn.worldautomation.net//mods/iChunUtil-4.2.3.jar"
           }
         },
         {
@@ -5254,21 +5254,6 @@
           }
         },
         {
-          "id": "org.wa:mod:a069",
-          "name": "MatterOverdrive-1.2.7.10-0.4.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 15916456,
-            "path": "/modstore/MatterOverdrive-1.2.7.10-0.4.2.jar",
-            "MD5": "a069c8febff265b39d3e25325b5ea9eb",
-            "url": "https://cdn.worldautomation.net//mods/MatterOverdrive-1.2.7.10-0.4.2.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:934f",
           "name": "Mantle-1.7.10-0.3.2b",
           "type": "ForgeMod",
@@ -5281,6 +5266,21 @@
             "path": "/modstore/Mantle-1.7.10-0.3.2b.jar",
             "MD5": "934fe4ef7a9b971f22b5dd53e57fa976",
             "url": "https://cdn.worldautomation.net//mods/Mantle-1.7.10-0.3.2b.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:a069",
+          "name": "MatterOverdrive-1.2.7.10-0.4.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 15916456,
+            "path": "/modstore/MatterOverdrive-1.2.7.10-0.4.2.jar",
+            "MD5": "a069c8febff265b39d3e25325b5ea9eb",
+            "url": "https://cdn.worldautomation.net//mods/MatterOverdrive-1.2.7.10-0.4.2.jar"
           }
         },
         {
@@ -5329,21 +5329,6 @@
           }
         },
         {
-          "id": "org.wa:mod:bfa2",
-          "name": "Mffs-1.7.10-4.0.0b154",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 989468,
-            "path": "/modstore/Mffs-1.7.10-4.0.0b154.jar",
-            "MD5": "bfa2a1a3ffeb849bba79722da9c8c104",
-            "url": "https://cdn.worldautomation.net//mods/Mffs-1.7.10-4.0.0b154.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:d2c2",
           "name": "MekanismTools-1.7.10-9.1.1.1031",
           "type": "ForgeMod",
@@ -5356,6 +5341,21 @@
             "path": "/modstore/MekanismTools-1.7.10-9.1.1.1031.jar",
             "MD5": "d2c2a92b5941ba68816d496885007d67",
             "url": "https://cdn.worldautomation.net//mods/MekanismTools-1.7.10-9.1.1.1031.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:bfa2",
+          "name": "Mffs-1.7.10-4.0.0b154",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 989468,
+            "path": "/modstore/Mffs-1.7.10-4.0.0b154.jar",
+            "MD5": "bfa2a1a3ffeb849bba79722da9c8c104",
+            "url": "https://cdn.worldautomation.net//mods/Mffs-1.7.10-4.0.0b154.jar"
           }
         },
         {
@@ -5434,21 +5434,6 @@
           }
         },
         {
-          "id": "org.wa:mod:afb0",
-          "name": "mod_voxelMap_1.7.0b_for_1.7.10",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 597177,
-            "path": "/modstore/mod_voxelMap_1.7.0b_for_1.7.10.jar",
-            "MD5": "afb07bedb01aa5cebebf9e1b3f9b8d60",
-            "url": "https://cdn.worldautomation.net//mods/mod_voxelMap_1.7.0b_for_1.7.10.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:3199",
           "name": "MorePlayerModels_1.7.10b",
           "type": "ForgeMod",
@@ -5461,6 +5446,21 @@
             "path": "/modstore/MorePlayerModels_1.7.10b.jar",
             "MD5": "31990b06e5c6330ca47a05060c9ae9de",
             "url": "https://cdn.worldautomation.net//mods/MorePlayerModels_1.7.10b.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:afb0",
+          "name": "mod_voxelMap_1.7.0b_for_1.7.10",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 597177,
+            "path": "/modstore/mod_voxelMap_1.7.0b_for_1.7.10.jar",
+            "MD5": "afb07bedb01aa5cebebf9e1b3f9b8d60",
+            "url": "https://cdn.worldautomation.net//mods/mod_voxelMap_1.7.0b_for_1.7.10.jar"
           }
         },
         {
@@ -5524,21 +5524,6 @@
           }
         },
         {
-          "id": "org.wa:mod:5430",
-          "name": "NEIIntegration-MC1.7.10-1.1.2",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 197046,
-            "path": "/modstore/NEIIntegration-MC1.7.10-1.1.2.jar",
-            "MD5": "54308ef273613b79870e9e46df86e7d9",
-            "url": "https://cdn.worldautomation.net//mods/NEIIntegration-MC1.7.10-1.1.2.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:7898",
           "name": "NetherOres-[1.7.10]2.3.1-22",
           "type": "ForgeMod",
@@ -5551,6 +5536,21 @@
             "path": "/modstore/NetherOres-[1.7.10]2.3.1-22.jar",
             "MD5": "78980ff5bea5c0de0b0a27edff94225b",
             "url": "https://cdn.worldautomation.net//mods/NetherOres-[1.7.10]2.3.1-22.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:5430",
+          "name": "NEIIntegration-MC1.7.10-1.1.2",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 197046,
+            "path": "/modstore/NEIIntegration-MC1.7.10-1.1.2.jar",
+            "MD5": "54308ef273613b79870e9e46df86e7d9",
+            "url": "https://cdn.worldautomation.net//mods/NEIIntegration-MC1.7.10-1.1.2.jar"
           }
         },
         {
@@ -5644,6 +5644,21 @@
           }
         },
         {
+          "id": "org.wa:mod:7af5",
+          "name": "OpenModsLib-1.7.10-0.10",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 2259572,
+            "path": "/modstore/OpenModsLib-1.7.10-0.10.jar",
+            "MD5": "7af56161fea4b81d7c8504133b269710",
+            "url": "https://cdn.worldautomation.net//mods/OpenModsLib-1.7.10-0.10.jar"
+          }
+        },
+        {
           "id": "org.wa:mod:4cfe",
           "name": "OpenComputers-MC1.7.10-1.7.0.1085-universal",
           "type": "ForgeMod",
@@ -5659,18 +5674,18 @@
           }
         },
         {
-          "id": "org.wa:mod:7af5",
-          "name": "OpenModsLib-1.7.10-0.10",
+          "id": "org.wa:mod:36a7",
+          "name": "OpenModularTurrets-1.7.10-2.2.11-238",
           "type": "ForgeMod",
           "required": {
             "value": false,
             "def": true
           },
           "artifact": {
-            "size": 2259572,
-            "path": "/modstore/OpenModsLib-1.7.10-0.10.jar",
-            "MD5": "7af56161fea4b81d7c8504133b269710",
-            "url": "https://cdn.worldautomation.net//mods/OpenModsLib-1.7.10-0.10.jar"
+            "size": 998274,
+            "path": "/modstore/OpenModularTurrets-1.7.10-2.2.11-238.jar",
+            "MD5": "36a7afb2eb98735aa6d44a0b6bce225d",
+            "url": "https://cdn.worldautomation.net//mods/OpenModularTurrets-1.7.10-2.2.11-238.jar"
           }
         },
         {
@@ -5716,21 +5731,6 @@
             "path": "/modstore/OpenPeripheralIntegration-1.7.10-0.6.jar",
             "MD5": "9605fa8af0b27adf3417e3d8d9fa99a8",
             "url": "https://cdn.worldautomation.net//mods/OpenPeripheralIntegration-1.7.10-0.6.jar"
-          }
-        },
-        {
-          "id": "org.wa:mod:36a7",
-          "name": "OpenModularTurrets-1.7.10-2.2.11-238",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 998274,
-            "path": "/modstore/OpenModularTurrets-1.7.10-2.2.11-238.jar",
-            "MD5": "36a7afb2eb98735aa6d44a0b6bce225d",
-            "url": "https://cdn.worldautomation.net//mods/OpenModularTurrets-1.7.10-2.2.11-238.jar"
           }
         },
         {
@@ -6154,21 +6154,6 @@
           }
         },
         {
-          "id": "org.wa:mod:057b",
-          "name": "Sync-4.0.1",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 214683,
-            "path": "/modstore/Sync-4.0.1.jar",
-            "MD5": "057b30773bbc938608d97e5f7a5a4b0d",
-            "url": "https://cdn.worldautomation.net//mods/Sync-4.0.1.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:9074",
           "name": "Streams-1.7.10-0.3.4",
           "type": "ForgeMod",
@@ -6181,6 +6166,21 @@
             "path": "/modstore/Streams-1.7.10-0.3.4.jar",
             "MD5": "90749deab37b42f6bdbb8762de6118b0",
             "url": "https://cdn.worldautomation.net//mods/Streams-1.7.10-0.3.4.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:057b",
+          "name": "Sync-4.0.1",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 214683,
+            "path": "/modstore/Sync-4.0.1.jar",
+            "MD5": "057b30773bbc938608d97e5f7a5a4b0d",
+            "url": "https://cdn.worldautomation.net//mods/Sync-4.0.1.jar"
           }
         },
         {
@@ -6394,21 +6394,6 @@
           }
         },
         {
-          "id": "org.wa:mod:e9d8",
-          "name": "WailaHarvestability-mc1.7.10-1.1.6",
-          "type": "ForgeMod",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 28800,
-            "path": "/modstore/WailaHarvestability-mc1.7.10-1.1.6.jar",
-            "MD5": "e9d81089ddec3da20f0bb144e7beb4da",
-            "url": "https://cdn.worldautomation.net//mods/WailaHarvestability-mc1.7.10-1.1.6.jar"
-          }
-        },
-        {
           "id": "org.wa:mod:eeb3",
           "name": "Waila-1.5.10_1.7.10",
           "type": "ForgeMod",
@@ -6421,6 +6406,21 @@
             "path": "/modstore/Waila-1.5.10_1.7.10.jar",
             "MD5": "eeb36775188e70faa1c5ecd84f80076c",
             "url": "https://cdn.worldautomation.net//mods/Waila-1.5.10_1.7.10.jar"
+          }
+        },
+        {
+          "id": "org.wa:mod:e9d8",
+          "name": "WailaHarvestability-mc1.7.10-1.1.6",
+          "type": "ForgeMod",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 28800,
+            "path": "/modstore/WailaHarvestability-mc1.7.10-1.1.6.jar",
+            "MD5": "e9d81089ddec3da20f0bb144e7beb4da",
+            "url": "https://cdn.worldautomation.net//mods/WailaHarvestability-mc1.7.10-1.1.6.jar"
           }
         },
         {
@@ -10834,21 +10834,6 @@
           }
         },
         {
-          "id": "npcAirElement",
-          "name": "npcAirElement",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4139,
-            "path": "/resources/minecraft/textures/items/npcAirElement.png",
-            "MD5": "43767fe3a2657b26a79571b14c371d03",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcAirElement.png"
-          }
-        },
-        {
           "id": "npcAmethyst",
           "name": "npcAmethyst",
           "type": "File",
@@ -10861,6 +10846,21 @@
             "path": "/resources/minecraft/textures/items/npcAmethyst.png",
             "MD5": "204b242ac16daadb8de3bb8959a0c71f",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcAmethyst.png"
+          }
+        },
+        {
+          "id": "npcAirElement",
+          "name": "npcAirElement",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4139,
+            "path": "/resources/minecraft/textures/items/npcAirElement.png",
+            "MD5": "43767fe3a2657b26a79571b14c371d03",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcAirElement.png"
           }
         },
         {
@@ -11014,21 +11014,6 @@
           }
         },
         {
-          "id": "npcBlackBullet",
-          "name": "npcBlackBullet",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3616,
-            "path": "/resources/minecraft/textures/items/npcBlackBullet.png",
-            "MD5": "c406af2ef2e937398584d458e3299e37",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBlackBullet.png"
-          }
-        },
-        {
           "id": "npcBearClaw",
           "name": "npcBearClaw",
           "type": "File",
@@ -11041,6 +11026,21 @@
             "path": "/resources/minecraft/textures/items/npcBearClaw.png",
             "MD5": "b93c52b6311922dca5f7126f058e7b06",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBearClaw.png"
+          }
+        },
+        {
+          "id": "npcBlackBullet",
+          "name": "npcBlackBullet",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3616,
+            "path": "/resources/minecraft/textures/items/npcBlackBullet.png",
+            "MD5": "c406af2ef2e937398584d458e3299e37",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBlackBullet.png"
           }
         },
         {
@@ -11074,21 +11074,6 @@
           }
         },
         {
-          "id": "npcBrokenBottle",
-          "name": "npcBrokenBottle",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4041,
-            "path": "/resources/minecraft/textures/items/npcBrokenBottle.png",
-            "MD5": "e30769191f4c4d9b9433dfa56bf65f59",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBrokenBottle.png"
-          }
-        },
-        {
           "id": "npcBrokenArrow",
           "name": "npcBrokenArrow",
           "type": "File",
@@ -11101,6 +11086,21 @@
             "path": "/resources/minecraft/textures/items/npcBrokenArrow.png",
             "MD5": "a7823f1c0a10e3e2cfe700b92461c7b1",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBrokenArrow.png"
+          }
+        },
+        {
+          "id": "npcBrokenBottle",
+          "name": "npcBrokenBottle",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4041,
+            "path": "/resources/minecraft/textures/items/npcBrokenBottle.png",
+            "MD5": "e30769191f4c4d9b9433dfa56bf65f59",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBrokenBottle.png"
           }
         },
         {
@@ -11134,21 +11134,6 @@
           }
         },
         {
-          "id": "npcBronzeDagger",
-          "name": "npcBronzeDagger",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3809,
-            "path": "/resources/minecraft/textures/items/npcBronzeDagger.png",
-            "MD5": "520872ce69d240d64713b3a6bb318c77",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBronzeDagger.png"
-          }
-        },
-        {
           "id": "npcBronzeBullet",
           "name": "npcBronzeBullet",
           "type": "File",
@@ -11161,6 +11146,21 @@
             "path": "/resources/minecraft/textures/items/npcBronzeBullet.png",
             "MD5": "0314a3d28bef43bb3de09b0614765a0b",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBronzeBullet.png"
+          }
+        },
+        {
+          "id": "npcBronzeDagger",
+          "name": "npcBronzeDagger",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3809,
+            "path": "/resources/minecraft/textures/items/npcBronzeDagger.png",
+            "MD5": "520872ce69d240d64713b3a6bb318c77",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcBronzeDagger.png"
           }
         },
         {
@@ -11314,21 +11314,6 @@
           }
         },
         {
-          "id": "npcCleaver",
-          "name": "npcCleaver",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3994,
-            "path": "/resources/minecraft/textures/items/npcCleaver.png",
-            "MD5": "2c42d9251015d29197b72de15c5db7e3",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcCleaver.png"
-          }
-        },
-        {
           "id": "npcChickenSword",
           "name": "npcChickenSword",
           "type": "File",
@@ -11341,6 +11326,21 @@
             "path": "/resources/minecraft/textures/items/npcChickenSword.png",
             "MD5": "ef87cf89c1af6b5c79cac48ef54fd50a",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcChickenSword.png"
+          }
+        },
+        {
+          "id": "npcCleaver",
+          "name": "npcCleaver",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3994,
+            "path": "/resources/minecraft/textures/items/npcCleaver.png",
+            "MD5": "2c42d9251015d29197b72de15c5db7e3",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcCleaver.png"
           }
         },
         {
@@ -11434,21 +11434,6 @@
           }
         },
         {
-          "id": "npcCombatKnive",
-          "name": "npcCombatKnive",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3882,
-            "path": "/resources/minecraft/textures/items/npcCombatKnive.png",
-            "MD5": "0c4e623324ae15c43d2017140551d497",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcCombatKnive.png"
-          }
-        },
-        {
           "id": "npcCoinWooden",
           "name": "npcCoinWooden",
           "type": "File",
@@ -11461,6 +11446,21 @@
             "path": "/resources/minecraft/textures/items/npcCoinWooden.png",
             "MD5": "a8034f7cab819e7bed01d43f3eb35f8a",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcCoinWooden.png"
+          }
+        },
+        {
+          "id": "npcCombatKnive",
+          "name": "npcCombatKnive",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3882,
+            "path": "/resources/minecraft/textures/items/npcCombatKnive.png",
+            "MD5": "0c4e623324ae15c43d2017140551d497",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcCombatKnive.png"
           }
         },
         {
@@ -12619,21 +12619,6 @@
           }
         },
         {
-          "id": "npcGoldenScythe",
-          "name": "npcGoldenScythe",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 3962,
-            "path": "/resources/minecraft/textures/items/npcGoldenScythe.png",
-            "MD5": "cd2eb59ea102676fb2b4abdc8fd39eca",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcGoldenScythe.png"
-          }
-        },
-        {
           "id": "npcGoldenShield",
           "name": "npcGoldenShield",
           "type": "File",
@@ -12691,6 +12676,21 @@
             "path": "/resources/minecraft/textures/items/npcGoldGun.png",
             "MD5": "88ce40754ff59a23d2f1b200230694eb",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcGoldGun.png"
+          }
+        },
+        {
+          "id": "npcGoldenScythe",
+          "name": "npcGoldenScythe",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 3962,
+            "path": "/resources/minecraft/textures/items/npcGoldenScythe.png",
+            "MD5": "cd2eb59ea102676fb2b4abdc8fd39eca",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcGoldenScythe.png"
           }
         },
         {
@@ -14299,6 +14299,21 @@
           }
         },
         {
+          "id": "npcX407Boots",
+          "name": "npcX407Boots",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 4020,
+            "path": "/resources/minecraft/textures/items/npcX407Boots.png",
+            "MD5": "6f3542d14a278100a6b43c4f4b1588df",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcX407Boots.png"
+          }
+        },
+        {
           "id": "npcX407Chest",
           "name": "npcX407Chest",
           "type": "File",
@@ -14341,21 +14356,6 @@
             "path": "/resources/minecraft/textures/items/npcX407Legs.png",
             "MD5": "11c52d358001b9a5ddb859d806393db7",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcX407Legs.png"
-          }
-        },
-        {
-          "id": "npcX407Boots",
-          "name": "npcX407Boots",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 4020,
-            "path": "/resources/minecraft/textures/items/npcX407Boots.png",
-            "MD5": "6f3542d14a278100a6b43c4f4b1588df",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/items/npcX407Boots.png"
           }
         },
         {
@@ -14569,21 +14569,6 @@
           }
         },
         {
-          "id": "delight",
-          "name": "delight",
-          "type": "File",
-          "required": {
-            "value": false,
-            "def": true
-          },
-          "artifact": {
-            "size": 92992,
-            "path": "/resources/minecraft/textures/gui/presets/delight.png",
-            "MD5": "0ebe4ac7b4f4cdc5ef22e4b184527e07",
-            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/gui/presets/delight.png"
-          }
-        },
-        {
           "id": "drought",
           "name": "drought",
           "type": "File",
@@ -14641,6 +14626,21 @@
             "path": "/resources/minecraft/textures/gui/presets/madness.png",
             "MD5": "a9a929022de6247cd4f6b8de0dfb92c6",
             "url": "https://cdn.worldautomation.net//resources/minecraft/textures/gui/presets/madness.png"
+          }
+        },
+        {
+          "id": "delight",
+          "name": "delight",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": true
+          },
+          "artifact": {
+            "size": 92992,
+            "path": "/resources/minecraft/textures/gui/presets/delight.png",
+            "MD5": "0ebe4ac7b4f4cdc5ef22e4b184527e07",
+            "url": "https://cdn.worldautomation.net//resources/minecraft/textures/gui/presets/delight.png"
           }
         },
         {
