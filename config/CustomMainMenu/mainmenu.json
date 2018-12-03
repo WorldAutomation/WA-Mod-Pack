@@ -24,27 +24,6 @@
     
     "buttons":
     {     
-		"singleplayer":
-        {
-            "text" : "Play Alone",
-            "hoverText" : ">>  Play Alone  <<",			
-			"normalTextColor" : 12303291,
-			"hoverTextColor" : 16777215,
-			"texture" : "wa:/btn.png",
-            "posX" : 97,
-            "posY" : -60,
-            "width" : 196,
-            "height" : 20,
-			imageWidth : 200,
-			imageHeight : 20,
-			"alignment" : "left_center",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },		
-
 		"multiplayer":
         {
             "text" : "Play on WorldAutomation.Net",		
@@ -62,8 +41,8 @@
             "shadow" : true,	
             "action" : 
             {
-                "type" : "opengui",
-                "gui" : "multiplayer"
+                "type" : "connectToServer",
+                "ip" : "mc.worldautomation.net"
             }
         },
                
