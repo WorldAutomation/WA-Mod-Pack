@@ -125,7 +125,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "www.worldautomation.net"
+                "link" : "https://www.worldautomation.net"
             }
         },	
 
@@ -146,7 +146,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "discord.gg/V72fB6D"
+                "link" : "https://discord.gg/V72fB6D"
             }
         },
 
